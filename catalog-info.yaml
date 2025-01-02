@@ -34,7 +34,16 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
-  name: user-management
+  name: authentication-authorization
   description: Handles user authentication and profiles
+spec:
+  owner: guests
+  domain: user-management
+---
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: user-management
+  description: Everything about artists
 spec:
   owner: guests
