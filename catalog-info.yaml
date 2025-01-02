@@ -31,7 +31,7 @@ spec:
   definition: 
     $text: https://raw.githubusercontent.com/Sanjeev-Thiyagarajan/backstage-auth/main/openapi/auth-api-spec.yaml
 ---
-apiVersion: backstage.io/v1beta1
+apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
   name: user-management
