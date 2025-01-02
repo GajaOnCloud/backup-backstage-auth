@@ -14,6 +14,7 @@ spec:
   type: service
   lifecycle: production
   owner: guests
+  system: user-management
   providesApis:
     - auth-api
 ---
@@ -29,5 +30,11 @@ spec:
   apiProvidedBy: auth-service
   definition: 
     $text: https://raw.githubusercontent.com/Sanjeev-Thiyagarajan/backstage-auth/main/openapi/auth-api-spec.yaml
-    
-
+---
+apiVersion: backstage.io/v1beta1
+kind: System
+metadata:
+  name: user-management
+  description: Handles user authentication and profiles
+spec:
+  onwer: guests
