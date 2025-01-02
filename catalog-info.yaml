@@ -14,7 +14,7 @@ spec:
   type: service
   lifecycle: production
   owner: guests
-  system: user-management
+  system: authentication-authorization
   providesApis:
     - auth-api
 ---
