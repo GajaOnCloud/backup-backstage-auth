@@ -13,7 +13,7 @@ metadata:
 spec:
   type: service
   lifecycle: production
-  owner: auth-team
+  owner: guests
   providesAPIs:
     - auth-api
 ---
@@ -25,7 +25,7 @@ metadata:
 spec:
   type: openapi
   lifecycle: production
-  owner: auth-team
+  owner: guests
   apiProvidedBy: auth-service
   definition: 
     $text: https://raw.githubusercontent.com/Sanjeev-Thiyagarajan/backstage-auth/main/openapi/auth-api-spec.yaml
