@@ -28,6 +28,6 @@ spec:
   owner: auth-team
   apiProvidedBy: auth-service
   definition: 
-    $json: https://github.com/Sanjeev-Thiyagarajan/backstage-auth/blob/main/openapi/auth-api-spec.yaml
+    $json: https://raw.githubusercontent.com/Sanjeev-Thiyagarajan/backstage-auth/main/openapi/auth-api-spec.yaml
     
 
