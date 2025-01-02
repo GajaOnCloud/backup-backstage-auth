@@ -27,6 +27,7 @@ spec:
   lifecycle: production
   owner: auth-team
   apiProvidedBy: auth-service
-  definition: https://github.com/Sanjeev-Thiyagarajan/backstage-auth/blob/main/openapi/auth-api-spec.yaml
+  definition: 
+    $json: https://github.com/Sanjeev-Thiyagarajan/backstage-auth/blob/main/openapi/auth-api-spec.yaml
     
 
