@@ -37,4 +37,4 @@ metadata:
   name: user-management
   description: Handles user authentication and profiles
 spec:
-  onwer: guests
+  owner: guests
