@@ -26,6 +26,7 @@ spec:
   type: openapi
   lifecycle: production
   owner: auth-team
-  definition: ./openapi/auth-api-spec.yaml
+  definition: 
+    $file: ./openapi/auth-api-spec.yaml
     
 
