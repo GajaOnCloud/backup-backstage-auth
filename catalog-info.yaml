@@ -86,7 +86,7 @@ metadata:
   description: The infra business unit
 spec:
   type: business-unit
-  parent: [ops]
+  parent: ops
   children: [cloud, onPrem]
   profile:
     displayName: Infrastructure
