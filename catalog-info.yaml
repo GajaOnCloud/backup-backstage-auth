@@ -57,3 +57,13 @@ metadata:
   description: Handles user authentication and profiles
 spec:
   owner: guests
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: artists-db
+  description: Stores artist details
+spec:
+  type: database
+  owner: guests
+  system: test
