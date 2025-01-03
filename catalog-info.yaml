@@ -47,7 +47,7 @@ metadata:
   description: Everything about artists
 spec:
   owner: guests
-  system:
+  systems:
     - test
 ---
 apiVersion: backstage.io/v1alpha1
