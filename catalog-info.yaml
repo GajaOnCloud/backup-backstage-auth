@@ -47,3 +47,13 @@ metadata:
   description: Everything about artists
 spec:
   owner: guests
+  system:
+    - test
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: test
+  description: Handles user authentication and profiles
+spec:
+  owner: guests
