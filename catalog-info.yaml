@@ -86,7 +86,8 @@ metadata:
   description: The infra business unit
 spec:
   type: business-unit
-  children: []
+  parent: [ops]
+  children: [cloud, onPrem]
   profile:
     displayName: Infrastructure
     email: infrastructure@example.com
