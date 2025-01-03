@@ -65,7 +65,7 @@ metadata:
   description: Stores artist details
 spec:
   type: database
-  owner: guests
+  owner: user:jdoe
   system: test
 ---
 apiVersion: backstage.io/v1alpha1
