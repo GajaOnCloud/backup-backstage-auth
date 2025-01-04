@@ -11,6 +11,7 @@ metadata:
       icon: dashboard
       type: admin-dashboard
 spec:
+  dependsOn: resource:artists-db
   type: service
   lifecycle: production
   owner: guests
