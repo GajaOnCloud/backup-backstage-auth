@@ -19,19 +19,19 @@ spec:
   # system: authentication-authorization
   # providesApis:
   #   - auth-api
-# ---
-# apiVersion: backstage.io/v1alpha1
-# kind: API
-# metadata:
-#   name: auth-api
-#   description: Verify user authentication status
-# spec:
-#   type: openapi
-#   lifecycle: production
-#   owner: guests
-#   apiProvidedBy: auth-service
-#   definition: 
-#     $text: https://raw.githubusercontent.com/GajaOnCloud/backup-backstage-auth/refs/heads/main/openapi/auth-api-spec.yaml
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: auth-api
+  description: Verify user authentication status
+spec:
+  type: openapi
+  lifecycle: production
+  owner: guests
+  apiProvidedBy: auth-service
+  definition: 
+    $text: https://raw.githubusercontent.com/GajaOnCloud/backup-backstage-auth/refs/heads/main/openapi/auth-api-spec.yaml
 # ---
 # apiVersion: backstage.io/v1alpha1
 # kind: System
