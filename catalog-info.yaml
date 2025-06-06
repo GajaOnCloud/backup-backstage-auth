@@ -31,7 +31,7 @@ spec:
   owner: guests
   apiProvidedBy: auth-service
   definition: 
-    $json: https://raw.githubusercontent.com/GajaOnCloud/backup-backstage-auth/main/openapi/auth-api-spec.yaml
+    $text: https://raw.githubusercontent.com/GajaOnCloud/backup-backstage-auth/main/openapi/auth-api-spec.yaml
 # ---
 # apiVersion: backstage.io/v1alpha1
 # kind: System
